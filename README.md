@@ -1,12 +1,34 @@
-# React + Vite
+<img width="1907" height="914" alt="image" src="https://github.com/user-attachments/assets/6c214f06-8723-4885-9b20-4f4bf8f221f8" />
+<img width="1886" height="906" alt="image" src="https://github.com/user-attachments/assets/af7bb7c1-c49f-4538-a46c-9c48cbef4821" />
+<img width="1876" height="905" alt="image" src="https://github.com/user-attachments/assets/44220cb4-3735-4760-bb30-f894ea9bbd99" />
+**🌦️ WeatherNow – React + Tailwind CSS Weather App**
+WeatherNow is a responsive weather application built with React and Tailwind CSS v4+, enhanced with dynamic Lottie animations that change based on real-time weather conditions. Users can search for any city to view live weather data, including temperature, humidity, visibility, wind speed, and more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**🔧 Features**
+🔍 City Search with recent search memory (stored in localStorage)
 
-Currently, two official plugins are available:
+🌡️ Temperature Unit Toggle (°C/°F) with automatic refetch
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⛅ Animated Backgrounds based on weather type (cloudy, rainy, foggy, etc.)
 
-## Expanding the ESLint configuration
+🎞️ Lottie Animations that visually reflect the current weather
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💨 Live weather data powered by OpenWeatherMap API
+
+⚡ Beautiful UI using Tailwind CSS 4 with custom gradients and effects
+
+📱 Fully responsive for desktop and mobile
+
+**🛠️ Tech Stack**
+React.js
+
+Tailwind CSS v4+
+
+Lottie React for animated weather backgrounds
+
+OpenWeatherMap API
+
+LocalStorage for recent city searches
+
+ESLint + Prettier (recommended for code formatting)
+
