@@ -8,13 +8,6 @@ import WeatherBackground from "./components/WeatherBackground";
 // Helper to set fallback background
 const getFallbackBackground = (weatherData) => {
   if (!weatherData) return 'bg-gradient-to-tr from-sky-400 to-indigo-600';
-  const desc = weatherData.weather[0].description.toLowerCase();
-  if (desc.includes('cloud')) return 'bg-cloudy';
-  if (desc.includes('rain')) return 'bg-rainy';
-  if (desc.includes('clear') || desc.includes('sun')) return 'bg-sunny';
-  if (desc.includes('snow')) return 'bg-snowy';
-  if (desc.includes('fog') || desc.includes('haze') || desc.includes('mist') || desc.includes('smoke')) return 'bg-hazy';
-  return 'bg-gradient-to-tr from-sky-400 to-indigo-600';
 };
 
 function App() {
@@ -40,7 +33,7 @@ function App() {
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm z-0" />
       <div className="relative z-10 p-6 max-w-4xl mx-auto bg-white/10 rounded-xl shadow-xl backdrop-blur-lg animate-fade-in">
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-2 drop-shadow-lg">Weather App</h1>
+          <h1 className="text-4xl font-bold mb-2 drop-shadow-lg">WeatherNow</h1>
           <p className="mb-6 text-lg">Get current weather conditions for any city</p>
         </div>
 
